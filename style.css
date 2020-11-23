@@ -42,6 +42,7 @@ button {
 }
 dialog {
   border: 0;
+  top: 300px;
 }
 
 dialog::backdrop {
