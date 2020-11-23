@@ -1,0 +1,53 @@
+html,
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 800px;
+  background-color: #b6f5f5;
+  box-shadow: 0px 0px 3px 1px #adadad;
+}
+
+div.post:hover {
+  background-color: #ff5555;
+}
+
+.post {
+  padding: 1em;
+  border-bottom: black 2px solid;
+}
+.post > h2 {
+  margin: 0;
+}
+.post > p {
+  margin: 5px 0;
+  font-size: 15px;
+}
+.post > .button-container {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background: linear-gradient(to top, rgb(0, 137, 0), rgb(0, 249, 0));
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+dialog {
+  border: 0;
+}
+
+dialog::backdrop {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.news {
+  padding: 1em;
+  background-color: #e1ff73;
+}
